@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="PK Gadget — নতুন মোবাইল, পুরাতন মোবাইল এবং গ্যাজেট কেনাকাটার বিশ্বস্ত ঠিকানা, ব্রাহ্মণপাড়া, কুমিল্লা।">
+
+    <meta name="theme-color" content="#080d18">
+
+    <title>PK Gadget | Mobile & Gadget Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">PK</span>
+                <span class="logo-text">
+                    <strong>PK GADGET</strong>
+                    <small>Mobile & Gadget Store</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="মেনু খুলুন"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">হোম</a>
+                <a href="#products">প্রোডাক্ট</a>
+                <a href="#new-mobiles">নতুন মোবাইল</a>
+                <a href="#used-mobiles">পুরাতন মোবাইল</a>
+                <a href="#gadgets">গ্যাজেট</a>
+                <a href="#contact">যোগাযোগ</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+
+            <div class="hero-badge">
+                ● PK Gadget — আপনার বিশ্বস্ত গ্যাজেট শপ
+            </div>
+
+            <h1>
+                আপনার পছন্দের<br>
+                <span>মোবাইল ও গ্যাজেট</span>
+                <br>এক ঠিকানায়
+            </h1>
+
+            <p>
+                নতুন মোবাইল, পুরাতন মোবাইল এবং বিভিন্ন
+                গ্যাজেট খুঁজুন সহজেই। আপনার পছন্দের
+                প্রোডাক্ট সম্পর্কে জানতে আমাদের সঙ্গে যোগাযোগ করুন।
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">
+                    প্রোডাক্ট দেখুন →
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    যোগাযোগ করুন
+                </a>
+            </div>
+
+            <div class="hero-features">
+                <div>
+                    <strong>01</strong>
+                    <span>নতুন মোবাইল</span>
+                </div>
+
+                <div>
+                    <strong>02</strong>
+                    <span>পুরাতন মোবাইল</span>
+                </div>
+
+                <div>
+                    <strong>03</strong>
+                    <span>গ্যাজেট ও অ্যাক্সেসরিজ</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Categories -->
+    <section class="categories section-padding" id="products">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">OUR CATEGORIES</span>
+                <h2>ক্যাটাগরি অনুযায়ী খুঁজুন</h2>
+                <p>আপনার প্রয়োজনীয় প্রোডাক্টটি বেছে নিন।</p>
+            </div>
+
+            <div class="category-grid">
+
+                <button class="category-card"
+                        data-category="new"
+                        type="button">
+                    <span class="category-icon">📱</span>
+                    <h3>নতুন মোবাইল</h3>
+                    <p>নতুন স্মার্টফোন</p>
+                    <span class="category-arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="used"
+                        type="button">
+                    <span class="category-icon">♻️</span>
+                    <h3>পুরাতন মোবাইল</h3>
+                    <p>ব্যবহৃত স্মার্টফোন</p>
+                    <span class="category-arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="gadget"
+                        type="button">
+                    <span class="category-icon">🎧</span>
+                    <h3>গ্যাজেট</h3>
+                    <p>অ্যাক্সেসরিজ ও গ্যাজেট</p>
+                    <span class="category-arrow">↗</span>
+                </button>
+
+                <button class="category-card"
+                        data-category="digital"
+                        type="button">
+                    <span class="category-icon">💻</span>
+                    <h3>ডিজিটাল প্রোডাক্ট</h3>
+                    <p>ডিজিটাল আইটেম</p>
+                    <span class="category-arrow">↗</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Products -->
+    <section class="products-section section-padding" id="new-mobiles">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">OUR COLLECTION</span>
+                <h2>আমাদের প্রোডাক্ট</h2>
+                <p>আপনার পছন্দের প্রোডাক্টটি খুঁজে নিন।</p>
+            </div>
+
+            <!-- Search -->
+            <div class="product-toolbar">
+
+                <div class="search-box">
+                    <span>⌕</span>
+                    <input
+                        type="search"
+                        id="productSearch"
+                        placeholder="প্রোডাক্টের নাম লিখে সার্চ করুন..."
+                        aria-label="প্রোডাক্ট সার্চ">
+                </div>
+
+                <select id="sortProducts" aria-label="দাম অনুযায়ী সাজান">
+                    <option value="default">ডিফল্ট সাজানো</option>
+                    <option value="low">দাম: কম থেকে বেশি</option>
+                    <option value="high">দাম: বেশি থেকে কম</option>
+                </select>
+
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">
+                    সব প্রোডাক্ট
+                </button>
+
+                <button class="filter-btn" data-filter="new">
+                    নতুন মোবাইল
+                </button>
+
+                <button class="filter-btn" data-filter="used">
+                    পুরাতন মোবাইল
+                </button>
+
+                <button class="filter-btn" data-filter="gadget">
+                    গ্যাজেট
+                </button>
+
+                <button class="filter-btn" data-filter="digital">
+                    ডিজিটাল
+                </button>
+            </div>
+
+            <!-- Product List -->
+            <div class="product-grid" id="productGrid">
+                <!-- JavaScript থেকে প্রোডাক্ট দেখানো হবে -->
+            </div>
+
+            <div class="no-products" id="noProducts" hidden>
+                <span>🔎</span>
+                <h3>কোনো প্রোডাক্ট পাওয়া যায়নি</h3>
+                <p>অন্য নাম দিয়ে সার্চ করুন অথবা অন্য ক্যাটাগরি নির্বাচন করুন।</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-us section-padding">
+        <div class="container why-grid">
+
+            <div class="why-intro">
+                <span class="eyebrow">WHY PK GADGET</span>
+                <h2>কেন PK Gadget?</h2>
+                <p>
+                    আপনার প্রয়োজন অনুযায়ী মোবাইল ও গ্যাজেট
+                    সম্পর্কে বিস্তারিত জানতে আমাদের সঙ্গে যোগাযোগ করুন।
+                </p>
+            </div>
+
+            <div class="why-card">
+                <span>✓</span>
+                <h3>পণ্যের বিস্তারিত তথ্য</h3>
+                <p>প্রোডাক্টের দাম ও বিবরণ জেনে কেনাকাটার সিদ্ধান্ত নিন।</p>
+            </div>
+
+            <div class="why-card">
+                <span>৳</span>
+                <h3>দাম যাচাইয়ের সুবিধা</h3>
+                <p>পণ্যের মূল্য ও স্টক সম্পর্কে সরাসরি জেনে নিন।</p>
+            </div>
+
+            <div class="why-card">
+                <span>☎</span>
+                <h3>সরাসরি যোগাযোগ</h3>
+                <p>অর্ডার বা যেকোনো প্রশ্নের জন্য আমাদের সঙ্গে যোগাযোগ করুন।</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">GET IN TOUCH</span>
+                <h2>আমাদের দোকানে আসুন</h2>
+                <p>আপনার পছন্দের প্রোডাক্ট সম্পর্কে জানতে যোগাযোগ করুন।</p>
+            </div>
+
+            <div class="contact-card">
+
+                <div class="contact-brand">
+                    <div class="contact-logo">PK</div>
+                    <h3>PK GADGET</h3>
+                    <p>Mobile & Gadget Store</p>
+                </div>
+
+                <div class="contact-details">
+
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <div>
+                            <h4>দোকানের ঠিকানা</h4>
+                            <p>
+                                খোয়াজ আলী মেম্বার মার্কেট,<br>
+                                ২য় তলা, দক্ষিণ পাশে,<br>
+                                দোকান নম্বর ২৩৫–২৩৬,<br>
+                                ব্রাহ্মণপাড়া, কুমিল্লা, বাংলাদেশ।
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <div>
+                            <h4>ফোন নম্বর</h4>
+                            <p id="phoneDisplay">ফোন নম্বর শিগগিরই যোগ করা হবে।</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <span class="contact-icon">🕒</span>
+                        <div>
+                            <h4>দোকানের সময়</h4>
+                            <p>দোকানের সময় জানতে সরাসরি যোগাযোগ করুন।</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a
+                            href="#"
+                            id="contactWhatsApp"
+                            class="btn btn-primary"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            WhatsApp-এ যোগাযোগ
+                        </a>
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Khwaj+Ali+Member+Market+Brahmanpara+Cumilla+Bangladesh"
+                            class="btn btn-outline"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Google Maps-এ খুঁজুন
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo footer-logo">
+                <span class="logo-icon">PK</span>
+                <span class="logo-text">
+                    <strong>PK GADGET</strong>
+                    <small>Mobile & Gadget Store</small>
+                </span>
+            </a>
+
+            <p>
+                © <span id="currentYear"></span> PK Gadget.
+                সর্বস্বত্ব সংরক্ষিত।
+            </p>
+
+            <a href="#home" class="back-top">উপরে যান ↑</a>
+
+        </div>
+    </footer>
+
+
+    <!-- WhatsApp Floating Button -->
+    <a
+        href="#"
+        class="whatsapp-float"
+        id="floatingWhatsApp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="WhatsApp-এ যোগাযোগ">
+        WA
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
